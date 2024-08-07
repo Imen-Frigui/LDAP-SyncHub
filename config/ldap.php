@@ -7,9 +7,9 @@ return [
     'connections' => [
 
         'default' => [
-            'hosts' => ['127.0.0.1'], // Replace with your LDAP server host
-            'username' => 'cn=admin,dc=example,dc=com', // LDAP admin user
-            'password' => 'admin', // LDAP admin password
+            'hosts' => ['127.0.0.1'], 
+            'username' => 'cn=admin,dc=example,dc=com', 
+            'password' => 'admin',
             'port' => 389,
             'base_dn' => 'dc=example,dc=com',
             'timeout' => 5,
