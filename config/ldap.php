@@ -8,7 +8,7 @@ return [
 
         'default' => [
             'hosts' => ['127.0.0.1'], 
-            'username' => 'cn=admin,dc=example,dc=com', 
+            'username' => 'cn=admin,dc=example,dc=com',
             'password' => 'admin',
             'port' => 389,
             'base_dn' => 'dc=example,dc=com',
